@@ -1,0 +1,96 @@
+#navbar {
+    flex-direction: column;
+    gap: 0px;
+}
+
+
+#navbar ul {
+    display: flex;
+    gap: 22px;
+    list-style: none;
+}
+
+#navbar ul li a {
+    text-decoration: none;
+    font-size: 1.3rem;
+    padding: 2px 2px;
+    color: whitesmoke;
+}
+
+.logo img {
+    height: 55px;
+    width: auto;
+}
+
+#home{
+    height: 300px;
+}
+
+.home-section h1 {
+    margin-top: 13px;
+    font-size: 22px;
+}
+
+.home-section p {
+    font-size: 16px;
+}
+
+.home-section .Btn {
+    margin-top: 15px;
+}
+
+.home-section .ordernow{
+    width: 80px;
+    font-size: 10px;
+}
+
+#order{
+    height: 1095px;
+}
+
+.container {
+    display: flex;
+    /* gap: 3px; */
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.order-head{
+    font-size: 10px;
+}
+
+.container .box{
+    width: 250px;
+}
+#order::before{
+      height: 200%;
+}
+
+.clients{
+    height: 116px;
+    width: 336px;
+    flex-wrap: wrap;
+    gap: 1.6rem;
+    align-self: center;
+    margin-left: 22px;
+
+}
+
+.clients .clientslogo img{
+    height: 50px;
+    width: auto;
+}
+
+
+.form-groups input{
+    width: 350px;
+}
+.form-groups textarea{
+    width: 350px;
+    
+}
+
+#joinus{
+    height: 579px;
+}
